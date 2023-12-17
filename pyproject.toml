@@ -1,0 +1,43 @@
+[project]
+name = "Airi"
+version = "0.1.0"
+description = "Airi"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
+    { name = "OneBot V12", module_name = "nonebot.adapters.onebot.v12" }
+]
+plugins = [
+    "nonebot_plugin_today_waifu", 
+    "nonebot_plugin_nowtime",
+    "nonebot_plugin_what2eat",
+    "nonebot_plugin_random_stereotypes",
+    "nonebot_plugin_fortune",
+    "nonebot_plugin_steam_game_status",
+    "nonebot_plugin_who_at_me",
+    "nonebot_plugin_htmlrender",
+    "nonebot_plugin_apscheduler",
+    "nonebot_plugin_jrrp-n",
+    "nonebot_plugin_remake",
+    "nonebot_plugin_pjsk",
+    "nonebot_plugin_hoshino_sign",
+    "nonebot_plugin_nobahpicture",
+    "nonebot_plugin_fakemsg",
+    "nonebot_plugin_wearskirt",
+    "nonebot_plugin_shutup",
+    "nonebot_plugin_muteme",
+    "nonebot_plugin_theworld",
+    "nonebot-plugin-person",
+    "nonebot_plugin_capoo",
+    "nonebot-plugin-ncm",
+    "nonebot_plugin_gsmaterial",
+    "nonebot_plugin_arkgacha",
+    "nonebot_plugin_starrail_calendar",
+    "nonebot_plugin_randomnana",
+    "nonebot_plugin_playercheck",
+    "nonebot_plugin_gspanel"]
+plugin_dirs = []
+builtin_plugins = ["echo", "single_session"]

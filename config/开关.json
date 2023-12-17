@@ -1,0 +1,28 @@
+{
+  "167963415": {
+    "admin": true,
+    "requests": true,
+    "wordcloud": true,
+    "auto_ban": false,
+    "img_check": false,
+    "word_analyze": true,
+    "welcome": true,
+    "group_msg": false,
+    "broadcast": true,
+    "particular_e_notice": false,
+    "group_recall": false
+  },
+  "490563289": {
+    "admin": true,
+    "requests": true,
+    "wordcloud": true,
+    "auto_ban": false,
+    "img_check": false,
+    "word_analyze": true,
+    "welcome": true,
+    "group_msg": false,
+    "broadcast": true,
+    "particular_e_notice": false,
+    "group_recall": false
+  }
+}
